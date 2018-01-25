@@ -1,0 +1,23 @@
+{
+    "name": "manro/congrats",
+    "description": "Congratulation Cards Project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "manro",
+            "email": "roman.denisov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kohana/core": "3.3.*",
+        "kohana/orm": "3.3.*",
+        "kohana/auth": "3.3.*",
+        "bmidget/kohana-formo": "3.1.*",
+        "guss77/kohana-routing": "1.1.*",
+        "paptamas/kohana-email": "3.3.*",
+        "seyfer/kohana-pagination": "dev-master",
+        "kohana/minion": "^3.3"
+    }
+}

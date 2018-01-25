@@ -1,0 +1,26 @@
+{
+  "name": "congrats-cards",
+  "authors": [
+    "manro <formanro@ua.fm>"
+  ],
+  "description": "The Congratulation Cards Project",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3",
+    "font-awesome": "fontawesome#^4.6.3",
+    "jcaret": "*",
+    "tinymce": "^4.4.3",
+    "eonasdan-bootstrap-datetimepicker": "bs-datetimepicker#^4.17.42",
+    "bootstrap3-typeahead": "git://github.com/bassjobsen/Bootstrap-3-Typeahead.git#master"
+  }
+}

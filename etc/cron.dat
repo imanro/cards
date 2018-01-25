@@ -1,0 +1,6 @@
+0 * * * * /data0/www2/cards.revival-rehab.org.ua/bin/minion --task=SendMessages >/dev/null 2>&1
+5 * * * * /data0/www2/cards.revival-rehab.org.ua/bin/minion --task=RescheduleMessages >/dev/null 2>&1
+# mailing: starting from sunday to tuesday for all timezones
+0 13-23 * * 0 /data0/www2/cards.revival-rehab.org.ua/bin/minion --task=Mailing >/dev/null 2>&1
+0 * * * 1 /data0/www2/cards.revival-rehab.org.ua/bin/minion --task=Mailing >/dev/null 2>&1
+0 0-14 * * 2 /data0/www2/cards.revival-rehab.org.ua/bin/minion --task=Mailing >/dev/null 2>&1
